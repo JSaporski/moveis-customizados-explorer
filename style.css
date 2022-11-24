@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+  margin: 0 20px 33px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Hero */
+#hero {
+  width: min(592px, 100%);
+  margin: 0 auto 72px auto;
+}
+
+#hero img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 72px auto;
+}
+
+#hero h1 {
+  margin-bottom: 32px;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: 400;
+}
+
+#hero p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+}
+
+#hero p + p {
+  margin-top: 28px;
+}
+
+#hero h1 strong,
+#hero p span {
+  color: #ff9900;
+}
+
+/* Footer */
+#footer {
+  width: min(568px, 100%);
+  margin-inline: auto;
+  padding-top: 8px;
+  border-top: 1px solid #eceff2;
+}
+
+#footer a {
+  margin-inline: 14px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #ff9900;
+}
+
+/* Balls Decoration */
+.balls-decoration {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
